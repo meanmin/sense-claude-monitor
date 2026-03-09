@@ -1,9 +1,9 @@
 """
 Baby Cry Monitor Logger
-cochl.sense SDK(plugin 방식)를 사용하여 오디오 파일에서
-아기 울음 관련 사운드를 분석하고 결과를 JSON 로그로 저장한다.
+Analyzes audio files for baby crying sounds using the cochl.sense SDK
+and saves results to daily JSON log files.
 
-참고: https://github.com/meanmin/sense-claude
+Reference: https://github.com/meanmin/sense-claude
 """
 
 import os
@@ -17,7 +17,7 @@ import cochl.sense as sense
 from dotenv import load_dotenv
 
 # ---------------------------------------------------------------------------
-# 설정
+# Configuration
 # ---------------------------------------------------------------------------
 MONITOR_NAME = "baby_cry"
 BASE_DIR = os.path.dirname(__file__)
@@ -51,7 +51,7 @@ SEVERITY_LEVELS = {
 }
 
 # ---------------------------------------------------------------------------
-# 로거
+# Logger
 # ---------------------------------------------------------------------------
 logger = logging.getLogger(MONITOR_NAME)
 logger.setLevel(logging.DEBUG)
@@ -64,11 +64,11 @@ logger.addHandler(_handler)
 
 
 # ---------------------------------------------------------------------------
-# Cochl.Sense SDK 분석
+# Cochl.Sense SDK Analysis
 # ---------------------------------------------------------------------------
 def analyze_audio(file_path: str, api_key: str) -> List[dict]:
-    """cochl.sense SDK로 오디오 파일을 분석하여 window_results를 반환"""
-    logger.info(f"Cochl.Sense 분석 시작: {os.path.basename(file_path)}")
+    """Analyze an audio file via cochl.sense SDK and return window_results."""
+    logger.info(f"Starting Cochl.Sense analysis: {os.path.basename(file_path)}")
 
     api_config = sense.APIConfigFromJson(CONFIG_PATH)
     client = sense.Client(api_key, api_config=api_config)
@@ -77,15 +77,15 @@ def analyze_audio(file_path: str, api_key: str) -> List[dict]:
     events_data = result.events.to_dict(api_config)
     window_results = events_data.get("window_results", [])
 
-    logger.info(f"분석 완료: {len(window_results)}개 윈도우 수신")
+    logger.info(f"Analysis complete: {len(window_results)} windows received")
     return window_results
 
 
 # ---------------------------------------------------------------------------
-# 이벤트 필터링 및 로깅
+# Event Filtering & Logging
 # ---------------------------------------------------------------------------
 def filter_events(window_results: List[dict]) -> List[dict]:
-    """window_results에서 SOUND_TAGS에 등록된 태그만 필터링"""
+    """Filter window_results to keep only tags registered in SOUND_TAGS."""
     matched = []
 
     for window in window_results:
@@ -118,10 +118,10 @@ def filter_events(window_results: List[dict]) -> List[dict]:
 
 
 # ---------------------------------------------------------------------------
-# 로그 저장
+# Log Persistence
 # ---------------------------------------------------------------------------
 def save_log(file_path: str, events: List[dict]) -> str:
-    """분석 결과를 cry_log_YYYYMMDD.json 파일로 저장"""
+    """Save analysis results to cry_log_YYYYMMDD.json."""
     os.makedirs(LOG_DIR, exist_ok=True)
 
     today = datetime.now().strftime("%Y%m%d")
@@ -144,20 +144,20 @@ def save_log(file_path: str, events: List[dict]) -> str:
     with open(log_path, "w", encoding="utf-8") as f:
         json.dump(existing, f, ensure_ascii=False, indent=2)
 
-    logger.info(f"로그 저장 완료: {log_path}")
+    logger.info(f"Log saved: {log_path}")
     return log_path
 
 
 # ---------------------------------------------------------------------------
-# 메인 실행
+# Main
 # ---------------------------------------------------------------------------
 def main():
     load_dotenv()
 
     api_key = os.getenv("COCHL_API_KEY")
     if not api_key or api_key == "your_project_key_here":
-        logger.error("COCHL_API_KEY가 설정되지 않았습니다.")
-        logger.error("https://dashboard.cochl.ai 에서 키를 발급받으세요.")
+        logger.error("COCHL_API_KEY is not configured.")
+        logger.error("Get your key at https://dashboard.cochl.ai")
         sys.exit(1)
 
     if len(sys.argv) < 2:
@@ -166,14 +166,14 @@ def main():
 
     file_path = sys.argv[1]
     if not os.path.isfile(file_path):
-        logger.error(f"파일을 찾을 수 없습니다: {file_path}")
+        logger.error(f"File not found: {file_path}")
         sys.exit(1)
 
     window_results = analyze_audio(file_path, api_key)
     events = filter_events(window_results)
     log_path = save_log(file_path, events)
 
-    print(f"결과 저장: {log_path}")
+    print(f"Results saved: {log_path}")
 
 
 if __name__ == "__main__":
