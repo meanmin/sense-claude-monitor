@@ -1,0 +1,165 @@
+[
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260305_0540.wav",
+    "analyzed_at": "2026-03-05T05:40:09.553",
+    "events": [
+      {
+        "tag": "Cough",
+        "confidence": 0.9456,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9234,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9610,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Moan",
+        "confidence": 0.6120,
+        "severity": "high",
+        "category": "distress",
+        "description": "A vocal sound expressing pain or pleasure.",
+        "start_time": 3,
+        "end_time": 5
+      }
+    ]
+  },
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260305_0655.wav",
+    "analyzed_at": "2026-03-05T06:55:22.881",
+    "events": [
+      {
+        "tag": "Cough",
+        "confidence": 0.9112,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.8934,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9278,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 2,
+        "end_time": 4
+      }
+    ]
+  },
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260305_0230.wav",
+    "analyzed_at": "2026-03-05T02:30:15.440",
+    "events": [
+      {
+        "tag": "Footstep",
+        "confidence": 0.7810,
+        "severity": "info",
+        "category": "night_movement",
+        "description": "Sound of footsteps.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Thud",
+        "confidence": 0.5340,
+        "severity": "critical",
+        "category": "fall",
+        "description": "Low, dull sound of something falling or hitting a surface.",
+        "start_time": 3,
+        "end_time": 5
+      }
+    ]
+  },
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260305_2245.wav",
+    "analyzed_at": "2026-03-05T22:45:38.112",
+    "events": [
+      {
+        "tag": "Cough",
+        "confidence": 0.9701,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9534,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9412,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9678,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 3,
+        "end_time": 5
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9301,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 4,
+        "end_time": 6
+      },
+      {
+        "tag": "Moan",
+        "confidence": 0.5890,
+        "severity": "high",
+        "category": "distress",
+        "description": "A vocal sound expressing pain or pleasure.",
+        "start_time": 5,
+        "end_time": 7
+      }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "monitor": "baby_cry",
+    "source_file": "nursery_20260303_0215.wav",
+    "analyzed_at": "2026-03-03T02:15:33.104",
+    "events": [
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.6123,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.5847,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 1,
+        "end_time": 3
+      }
+    ]
+  },
+  {
+    "monitor": "baby_cry",
+    "source_file": "nursery_20260303_1430.wav",
+    "analyzed_at": "2026-03-03T14:30:12.552",
+    "events": [
+      {
+        "tag": "Baby_laughter",
+        "confidence": 0.7891,
+        "severity": "info",
+        "description": "A baby's laughing sound, typically high-pitched and joyful.",
+        "start_time": 0,
+        "end_time": 2
+      }
+    ]
+  },
+  {
+    "monitor": "baby_cry",
+    "source_file": "nursery_20260303_2310.wav",
+    "analyzed_at": "2026-03-03T23:10:45.881",
+    "events": [
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.6540,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 0,
+        "end_time": 2
+      }
+    ]
+  }
+]

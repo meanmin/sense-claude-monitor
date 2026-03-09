@@ -1,0 +1,129 @@
+[
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260303_0010.wav",
+    "analyzed_at": "2026-03-03T00:10:33.201",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.6123,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      }
+    ]
+  },
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260303_0215.wav",
+    "analyzed_at": "2026-03-03T02:15:11.440",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.9234,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9456,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9312,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9178,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 3,
+        "end_time": 5
+      }
+    ]
+  },
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260303_0330.wav",
+    "analyzed_at": "2026-03-03T03:30:25.889",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.9601,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9523,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9710,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.5412,
+        "severity": "medium",
+        "category": "sleep_disruption",
+        "description": "Sound of coughing.",
+        "start_time": 3,
+        "end_time": 5
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9345,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 4,
+        "end_time": 6
+      }
+    ]
+  },
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260303_0520.wav",
+    "analyzed_at": "2026-03-03T05:20:42.110",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.6890,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      }
+    ]
+  }
+]

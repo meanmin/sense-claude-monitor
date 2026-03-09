@@ -1,0 +1,199 @@
+[
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260305_0030.wav",
+    "analyzed_at": "2026-03-05T00:30:12.450",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.7234,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      }
+    ]
+  },
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260305_0210.wav",
+    "analyzed_at": "2026-03-05T02:10:33.770",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.9534,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9712,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9601,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9845,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 3,
+        "end_time": 5
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9523,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 4,
+        "end_time": 6
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.6810,
+        "severity": "medium",
+        "category": "sleep_disruption",
+        "description": "Sound of coughing.",
+        "start_time": 5,
+        "end_time": 7
+      }
+    ]
+  },
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260305_0255.wav",
+    "analyzed_at": "2026-03-05T02:55:18.334",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.9678,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9801,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9734,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9567,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 3,
+        "end_time": 5
+      }
+    ]
+  },
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260305_0340.wav",
+    "analyzed_at": "2026-03-05T03:40:44.112",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.9890,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9756,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9912,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Throat_clear",
+        "confidence": 0.7120,
+        "severity": "medium",
+        "category": "sleep_disruption",
+        "description": "Grunting or coughing sound to clear the throat.",
+        "start_time": 3,
+        "end_time": 5
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9634,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 4,
+        "end_time": 6
+      }
+    ]
+  },
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260305_0545.wav",
+    "analyzed_at": "2026-03-05T05:45:01.889",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.6345,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Yawn",
+        "confidence": 0.8560,
+        "severity": "info",
+        "category": "sleep_quality",
+        "description": "Open-mouthed breath sound often with vocal tone from tiredness.",
+        "start_time": 1,
+        "end_time": 3
+      }
+    ]
+  }
+]

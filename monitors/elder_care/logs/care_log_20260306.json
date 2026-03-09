@@ -1,0 +1,165 @@
+[
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260306_0610.wav",
+    "analyzed_at": "2026-03-06T06:10:05.209",
+    "events": [
+      {
+        "tag": "Cough",
+        "confidence": 0.9567,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9712,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9389,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9645,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 3,
+        "end_time": 5
+      },
+      {
+        "tag": "Vomit",
+        "confidence": 0.6120,
+        "severity": "high",
+        "category": "health",
+        "description": "Gagging and splashing sound of vomiting.",
+        "start_time": 4,
+        "end_time": 6
+      }
+    ]
+  },
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260306_0735.wav",
+    "analyzed_at": "2026-03-06T07:35:41.880",
+    "events": [
+      {
+        "tag": "Cough",
+        "confidence": 0.9210,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.8978,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 1,
+        "end_time": 3
+      }
+    ]
+  },
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260306_0145.wav",
+    "analyzed_at": "2026-03-06T01:45:20.334",
+    "events": [
+      {
+        "tag": "Footstep",
+        "confidence": 0.8120,
+        "severity": "info",
+        "category": "night_movement",
+        "description": "Sound of footsteps.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Footstep",
+        "confidence": 0.7645,
+        "severity": "info",
+        "category": "night_movement",
+        "description": "Sound of footsteps.",
+        "start_time": 1,
+        "end_time": 3
+      }
+    ]
+  },
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260306_2230.wav",
+    "analyzed_at": "2026-03-06T22:30:55.667",
+    "events": [
+      {
+        "tag": "Cough",
+        "confidence": 0.9801,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9623,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9745,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9534,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 3,
+        "end_time": 5
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9412,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 4,
+        "end_time": 6
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9678,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 5,
+        "end_time": 7
+      }
+    ]
+  }
+]

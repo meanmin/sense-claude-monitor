@@ -1,0 +1,165 @@
+[
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260304_0045.wav",
+    "analyzed_at": "2026-03-04T00:45:08.330",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.6534,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Yawn",
+        "confidence": 0.7120,
+        "severity": "info",
+        "category": "sleep_quality",
+        "description": "Open-mouthed breath sound often with vocal tone from tiredness.",
+        "start_time": 1,
+        "end_time": 3
+      }
+    ]
+  },
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260304_0205.wav",
+    "analyzed_at": "2026-03-04T02:05:14.551",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.9412,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9634,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9501,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9723,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 3,
+        "end_time": 5
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9389,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 4,
+        "end_time": 6
+      }
+    ]
+  },
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260304_0315.wav",
+    "analyzed_at": "2026-03-04T03:15:33.892",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.9810,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9678,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9745,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Throat_clear",
+        "confidence": 0.6230,
+        "severity": "medium",
+        "category": "sleep_disruption",
+        "description": "Grunting or coughing sound to clear the throat.",
+        "start_time": 3,
+        "end_time": 5
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9556,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 4,
+        "end_time": 6
+      },
+      {
+        "tag": "Snore",
+        "confidence": 0.9412,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 5,
+        "end_time": 7
+      }
+    ]
+  },
+  {
+    "monitor": "sleep",
+    "source_file": "bedroom_20260304_0510.wav",
+    "analyzed_at": "2026-03-04T05:10:55.224",
+    "events": [
+      {
+        "tag": "Snore",
+        "confidence": 0.7012,
+        "severity": "high",
+        "category": "snoring",
+        "description": "The sound of snoring.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Yawn",
+        "confidence": 0.8230,
+        "severity": "info",
+        "category": "sleep_quality",
+        "description": "Open-mouthed breath sound often with vocal tone from tiredness.",
+        "start_time": 1,
+        "end_time": 3
+      }
+    ]
+  }
+]

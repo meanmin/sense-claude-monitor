@@ -1,0 +1,87 @@
+[
+  {
+    "monitor": "baby_cry",
+    "source_file": "nursery_20260304_0045.wav",
+    "analyzed_at": "2026-03-04T00:45:22.319",
+    "events": [
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.7234,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.7891,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.7455,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Moan",
+        "confidence": 0.5120,
+        "severity": "medium",
+        "description": "A vocal sound expressing pain or pleasure.",
+        "start_time": 3,
+        "end_time": 5
+      }
+    ]
+  },
+  {
+    "monitor": "baby_cry",
+    "source_file": "nursery_20260304_0330.wav",
+    "analyzed_at": "2026-03-04T03:30:11.205",
+    "events": [
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.8102,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.7763,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 1,
+        "end_time": 3
+      }
+    ]
+  },
+  {
+    "monitor": "baby_cry",
+    "source_file": "nursery_20260304_1920.wav",
+    "analyzed_at": "2026-03-04T19:20:55.004",
+    "events": [
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.6980,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Scream",
+        "confidence": 0.5512,
+        "severity": "high",
+        "description": "The sound of a scream in response to fear or surprise.",
+        "start_time": 1,
+        "end_time": 3
+      }
+    ]
+  }
+]

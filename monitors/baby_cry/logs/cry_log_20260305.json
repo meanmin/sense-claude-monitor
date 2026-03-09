@@ -1,0 +1,119 @@
+[
+  {
+    "monitor": "baby_cry",
+    "source_file": "nursery_20260305_0120.wav",
+    "analyzed_at": "2026-03-05T01:20:14.882",
+    "events": [
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.8845,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.9102,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.8734,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Scream",
+        "confidence": 0.6230,
+        "severity": "high",
+        "description": "The sound of a scream in response to fear or surprise.",
+        "start_time": 3,
+        "end_time": 5
+      },
+      {
+        "tag": "Moan",
+        "confidence": 0.5890,
+        "severity": "medium",
+        "description": "A vocal sound expressing pain or pleasure.",
+        "start_time": 4,
+        "end_time": 6
+      }
+    ]
+  },
+  {
+    "monitor": "baby_cry",
+    "source_file": "nursery_20260305_0415.wav",
+    "analyzed_at": "2026-03-05T04:15:33.107",
+    "events": [
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.9210,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.8956,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.9347,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.8612,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 3,
+        "end_time": 5
+      }
+    ]
+  },
+  {
+    "monitor": "baby_cry",
+    "source_file": "nursery_20260305_2245.wav",
+    "analyzed_at": "2026-03-05T22:45:09.440",
+    "events": [
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.8501,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.8890,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Moan",
+        "confidence": 0.6710,
+        "severity": "medium",
+        "description": "A vocal sound expressing pain or pleasure.",
+        "start_time": 2,
+        "end_time": 4
+      }
+    ]
+  }
+]

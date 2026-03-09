@@ -1,0 +1,120 @@
+[
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260303_0612.wav",
+    "analyzed_at": "2026-03-03T06:12:04.331",
+    "events": [
+      {
+        "tag": "Cough",
+        "confidence": 0.8910,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.8534,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9120,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 2,
+        "end_time": 4
+      }
+    ]
+  },
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260303_0645.wav",
+    "analyzed_at": "2026-03-03T06:45:18.220",
+    "events": [
+      {
+        "tag": "Cough",
+        "confidence": 0.8701,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9015,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 1,
+        "end_time": 3
+      }
+    ]
+  },
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260303_1420.wav",
+    "analyzed_at": "2026-03-03T14:20:55.102",
+    "events": [
+      {
+        "tag": "Footstep",
+        "confidence": 0.7230,
+        "severity": "info",
+        "category": "night_movement",
+        "description": "Sound of footsteps.",
+        "start_time": 0,
+        "end_time": 2
+      }
+    ]
+  },
+  {
+    "monitor": "elder_care",
+    "source_file": "room_20260303_2255.wav",
+    "analyzed_at": "2026-03-03T22:55:41.889",
+    "events": [
+      {
+        "tag": "Cough",
+        "confidence": 0.9245,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9410,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.8890,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Cough",
+        "confidence": 0.9102,
+        "severity": "medium",
+        "category": "health",
+        "description": "Sound of coughing.",
+        "start_time": 3,
+        "end_time": 5
+      }
+    ]
+  }
+]
