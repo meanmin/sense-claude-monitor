@@ -16,7 +16,16 @@ cd sense-claude-monitor
 
 Or download the ZIP and extract it.
 
-### 2. Create Python Virtual Environment + Install Dependencies
+### 2. Install the sense-claude Plugin (Claude Code Users)
+
+If you use [Claude Code](https://claude.com/claude-code), install the [sense-claude plugin](https://github.com/meanmin/sense-claude) for guided Cochl.Sense integration:
+
+```bash
+/plugin marketplace add meanmin/sense-claude
+/plugin install cochl-sense-api
+```
+
+### 3. Create Python Virtual Environment + Install Dependencies
 
 > Python 3.9 or higher required. Python 3.11+ requires a virtual environment.
 
@@ -29,7 +38,7 @@ pip install cochl --no-deps
 pip install soundfile requests numpy python-dateutil urllib3 pydantic
 ```
 
-### 3. Configure API Key
+### 4. Configure API Key
 
 Get your project key from the [Cochl Dashboard](https://dashboard.cochl.ai).
 
@@ -42,13 +51,13 @@ cp .env.example .env
 COCHL_API_KEY=your_actual_api_key_here
 ```
 
-### 4. Run Audio Analysis
+### 5. Run Audio Analysis
 
 Provide your own audio file as an argument. Supported formats: `.wav`, `.mp3`, `.flac`, `.ogg`, etc.
 
 ```bash
 # Baby cry analysis
-python monitors/baby_cry/logger.py your_audio_file.wav
+python monitors/baby_cry/logger.py your_audio_file.mp3
 
 # Elder care analysis
 python monitors/elder_care/logger.py your_audio_file.mp3
@@ -57,7 +66,7 @@ python monitors/elder_care/logger.py your_audio_file.mp3
 python monitors/sleep/logger.py your_audio_file.mp3
 ```
 
-### 5. View Results
+### 6. View Results
 
 ```bash
 # Per-monitor logs
@@ -87,7 +96,7 @@ sense-claude-monitor/
 │   │   ├── logger.py             # Analysis script
 │   │   ├── logs/                 # JSON analysis logs
 │   │   │   └── cry_log_YYYYMMDD.json
-│   │   └── reports/              # Weekly report PDFs
+│   │   └── reports/              # Example weekly report PDFs
 │   │       └── baby_cry_weekly_report_20260306.pdf
 │   │
 │   ├── elder_care/
@@ -188,7 +197,8 @@ Multiple runs on the same day are appended to the same file.
 
 ## Weekly Report Samples
 
-Three sample reports are included in the `monitors/*/reports/` folders:
+The `monitors/*/reports/` folders contain **example reports** generated from the included sample data.
+These demonstrate the kind of output you can expect when running the system with your own audio files.
 
 - **Baby Cry** — 5x increase in crying over 4 days, entering Physical Pain Zone
 - **Elder Care** — Fall (Thud) event detected, coughing concentrated at dawn/night
