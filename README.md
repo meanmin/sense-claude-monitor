@@ -1,7 +1,52 @@
 # Sense Claude Monitor
 
-An acoustic health monitoring system powered by Cochl.Sense Cloud API + Claude Code.
-Detects baby crying, elder care events, and sleep disorders in real time, with automated weekly analysis reports.
+**Sound API plugin + Claude Code cowork = a complete health monitoring product.**
+
+We built a [Claude Code plugin](https://github.com/meanmin/sense-claude) that connects the Cochl.Sense sound recognition API.
+Then we used Claude Code's **cowork** capability to turn raw audio analysis into automated weekly health reports — no manual interpretation needed.
+
+> **The idea:** A plugin gives Claude Code a new *ability*. Cowork turns that ability into a *workflow*.
+> This project is the proof — from plugin to product in one repository.
+
+### What it does
+
+Feed audio files into 3 specialized monitors. Get back structured JSON logs and publication-ready weekly reports — charts, trend analysis, and clinical recommendations included.
+
+| Monitor | Detects | Report highlights |
+|---------|---------|-------------------|
+| **Baby Cry** | Crying, screaming, moaning | Cry intensity trend (Normal → Pain Zone), hourly distribution |
+| **Elder Care** | Falls, coughing, vomiting, night movement | Fall-risk alerts, cough escalation tracking |
+| **Sleep** | Snoring, sleep disruptions, fatigue signals | OSA risk screening, REM-band snoring analysis |
+
+### Sample Reports
+
+<table>
+<tr>
+<td align="center"><b>Baby Cry Weekly Report</b></td>
+<td align="center"><b>Elder Care Weekly Report</b></td>
+<td align="center"><b>Sleep Disorder Weekly Report</b></td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/baby_cry_report_p1.png" width="280" alt="Baby Cry Report — KPI dashboard showing 5x cry increase over 4 days"></td>
+<td><img src="docs/screenshots/elder_care_report_p1.png" width="280" alt="Elder Care Report — Fall event detected, cough escalation"></td>
+<td><img src="docs/screenshots/sleep_report_p1.png" width="280" alt="Sleep Report — Snoring intensity and OSA risk screening"></td>
+</tr>
+<tr>
+<td><sub>5x cry increase in 4 days → Physical Pain Zone</sub></td>
+<td><sub>Fall (Thud) detected at 02:30 AM</sub></td>
+<td><sub>Snoring peaked at 0.95, suspected OSA</sub></td>
+</tr>
+</table>
+
+> Full reports (4-5 pages each with charts and recommendations) are in `monitors/*/reports/`.
+
+### Plugin alone vs. Plugin + Cowork
+
+| | Plugin only | Plugin + Cowork |
+|---|---|---|
+| **Output** | JSON log of detected sound events | JSON log + weekly PDF report with charts, trends, and recommendations |
+| **Human effort** | You read the logs, make the charts, write the analysis | You provide the audio file — that's it |
+| **Value** | Data | Actionable insights ready for clinical or personal use |
 
 ---
 
@@ -88,7 +133,8 @@ sense-claude-monitor/
 ├── .env.example                  # API key template
 ├── README.md                     # This file
 ├── docs/
-│   └── PRD.md                    # Product Requirements Document
+│   ├── PRD.md                    # Product Requirements Document
+│   └── screenshots/              # Report page images for README
 │
 ├── monitors/
 │   ├── baby_cry/
@@ -197,12 +243,50 @@ Multiple runs on the same day are appended to the same file.
 
 ## Weekly Report Samples
 
-The `monitors/*/reports/` folders contain **example reports** generated from the included sample data.
-These demonstrate the kind of output you can expect when running the system with your own audio files.
+Each monitor generates a multi-page PDF report. Below are all pages from the sample reports.
 
-- **Baby Cry** — 5x increase in crying over 4 days, entering Physical Pain Zone
-- **Elder Care** — Fall (Thud) event detected, coughing concentrated at dawn/night
-- **Sleep** — Snoring concentrated at 2-4 AM, suspected OSA (Obstructive Sleep Apnea)
+<details>
+<summary><b>Baby Cry Weekly Report (4 pages)</b> — 5x cry increase, entering Physical Pain Zone</summary>
+
+| Page 1: KPI + Daily Breakdown | Page 2: Cry Intensity Trend |
+|---|---|
+| <img src="docs/screenshots/baby_cry_report_p1.png" width="400"> | <img src="docs/screenshots/baby_cry_report_p2.png" width="400"> |
+
+| Page 3: Hourly Distribution | Page 4: Recommendations |
+|---|---|
+| <img src="docs/screenshots/baby_cry_report_p3.png" width="400"> | <img src="docs/screenshots/baby_cry_report_p4.png" width="400"> |
+
+</details>
+
+<details>
+<summary><b>Elder Care Weekly Report (5 pages)</b> — Fall detected, cough escalation at dawn/night</summary>
+
+| Page 1: KPI + Daily Breakdown | Page 2: Cough Frequency Trend |
+|---|---|
+| <img src="docs/screenshots/elder_care_report_p1.png" width="400"> | <img src="docs/screenshots/elder_care_report_p2.png" width="400"> |
+
+| Page 3: Hourly Distribution | Page 4: Fall-Risk Detail |
+|---|---|
+| <img src="docs/screenshots/elder_care_report_p3.png" width="400"> | <img src="docs/screenshots/elder_care_report_p4.png" width="400"> |
+
+| Page 5: Recommendations |
+|---|
+| <img src="docs/screenshots/elder_care_report_p5.png" width="400"> |
+
+</details>
+
+<details>
+<summary><b>Sleep Weekly Report (4 pages)</b> — Snoring at 2-4 AM, suspected OSA</summary>
+
+| Page 1: KPI + Nightly Breakdown | Page 2: Snoring Intensity + Disruption Index |
+|---|---|
+| <img src="docs/screenshots/sleep_report_p1.png" width="400"> | <img src="docs/screenshots/sleep_report_p2.png" width="400"> |
+
+| Page 3: Hourly Distribution | Page 4: Recommendations |
+|---|---|
+| <img src="docs/screenshots/sleep_report_p3.png" width="400"> | <img src="docs/screenshots/sleep_report_p4.png" width="400"> |
+
+</details>
 
 ---
 
