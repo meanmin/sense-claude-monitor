@@ -143,7 +143,7 @@ sense-claude-monitor/
 │   │   ├── logs/                 # JSON analysis logs
 │   │   │   └── cry_log_YYYYMMDD.json
 │   │   └── reports/              # Example weekly report PDFs
-│   │       └── baby_cry_weekly_report_20260306.pdf
+│   │       └── baby_cry_weekly_report_20260311.pdf
 │   │
 │   ├── elder_care/
 │   │   ├── config.json
@@ -151,7 +151,7 @@ sense-claude-monitor/
 │   │   ├── logs/
 │   │   │   └── care_log_YYYYMMDD.json
 │   │   └── reports/
-│   │       └── elder_care_weekly_report_20260306.pdf
+│   │       └── elder_care_weekly_report_20260311.pdf
 │   │
 │   └── sleep/
 │       ├── config.json
@@ -159,7 +159,7 @@ sense-claude-monitor/
 │       ├── logs/
 │       │   └── sleep_log_YYYYMMDD.json
 │       └── reports/
-│           └── sleep_weekly_report_20260306.pdf
+│           └── sleep_weekly_report_20260311.pdf
 │
 └── venv/                         # Python virtual environment (not in git)
 ```

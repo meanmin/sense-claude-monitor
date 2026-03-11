@@ -227,9 +227,9 @@ Audio Input → Send to Cochl API → Receive window_results
 | | `monitors/elder_care/logger.py` | Elder care analysis |
 | | `monitors/sleep/logger.py` | Sleep monitor analysis |
 | **Sample Logs** | `monitors/*/logs/*.json` (x12) | 4 days x 3 monitors |
-| **Report PDFs** | `monitors/baby_cry/reports/baby_cry_weekly_report_20260306.pdf` | 4 pages, 3 charts |
-| | `monitors/elder_care/reports/elder_care_weekly_report_20260306.pdf` | 5 pages, 3 charts + fall detail |
-| | `monitors/sleep/reports/sleep_weekly_report_20260306.pdf` | 4 pages, dual chart + hourly distribution |
+| **Report PDFs** | `monitors/baby_cry/reports/baby_cry_weekly_report_20260311.pdf` | 4 pages, 3 charts |
+| | `monitors/elder_care/reports/elder_care_weekly_report_20260311.pdf` | 5 pages, 3 charts + fall detail |
+| | `monitors/sleep/reports/sleep_weekly_report_20260311.pdf` | 4 pages, dual chart + hourly distribution |
 | **Documentation** | `README.md` | Setup Guide |
 | | `docs/PRD.md` | This document |
 | | `.env.example` | API key template |
