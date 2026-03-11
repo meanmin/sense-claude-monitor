@@ -61,5 +61,68 @@
         "end_time": 8
       }
     ]
+  },
+  {
+    "monitor": "baby_cry",
+    "source_file": "baby_cry.mp3",
+    "analyzed_at": "2026-03-10T15:03:51.935309",
+    "events": [
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.8291,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 0,
+        "end_time": 2
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.9264,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 1,
+        "end_time": 3
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.9545,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 2,
+        "end_time": 4
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.9495,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 3,
+        "end_time": 5
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.921,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 4,
+        "end_time": 6
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.902,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 5,
+        "end_time": 7
+      },
+      {
+        "tag": "Baby_cry",
+        "confidence": 0.9162,
+        "severity": "critical",
+        "description": "Sound of a baby crying, often high-pitched and repetitive.",
+        "start_time": 6,
+        "end_time": 8
+      }
+    ]
   }
 ]
