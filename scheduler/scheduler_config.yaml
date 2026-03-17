@@ -1,0 +1,29 @@
+# Weekly Report Scheduler Configuration
+# Secrets (API tokens, passwords) are stored in .env — not here.
+
+schedule:
+  day_of_week: "mon"      # cron day: mon, tue, wed, thu, fri, sat, sun
+  hour: 9
+  minute: 0
+  timezone: "Asia/Seoul"
+
+monitors:
+  baby_cry:
+    enabled: true
+  elder_care:
+    enabled: true
+  sleep:
+    enabled: true
+
+notifications:
+  slack:
+    enabled: false
+    channel: "#sense-reports"
+  email:
+    enabled: true
+    recipients:
+      - "msjang@cochlear.ai"
+
+retry:
+  max_attempts: 3
+  backoff_base: 2          # exponential backoff base (seconds)

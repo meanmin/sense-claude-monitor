@@ -1,0 +1,20 @@
+# Cochl.Sense SDK
+cochl
+
+# Core dependencies
+python-dotenv
+soundfile
+requests
+numpy
+python-dateutil
+urllib3
+pydantic
+
+# Report generation
+matplotlib
+reportlab
+
+# Scheduler & notifications
+apscheduler
+slack_sdk
+pyyaml
